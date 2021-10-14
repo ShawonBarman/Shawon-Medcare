@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../image/background_image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainheader{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader .logo img{
+    width: 15.5rem;
+    height: 5.2rem;
+    padding-left: 60px;
+}
+
+.mainheader nav{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainheader nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.mainheader .menubtn{
+    padding-right: 60px;
+}
+
+.mainheader button{
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: rgb(30, 133, 218);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+}
+
+.mainheader button:hover{
+    background-color: rgb(101, 172, 230);
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .right_sec img{
+    width: 32rem;
+}
+
+main .right_sec{
+    padding-right: 60px;
+}
+
+main .left_sec{
+    padding-left: 100px;
+}
+
+main .left_sec h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #242424;
+}
+
+main .left_sec h1{
+    font-size: 2.8rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 12px 0;
+}
+
+main .left_sec p{
+    margin-bottom: 20px;
+}
+
+main .left_sec button{
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-color: rgb(30, 133, 218);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    cursor: pointer;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+}
+
+main .left_sec button:hover{
+    background-color: rgb(101, 172, 230);
+}
